@@ -1,0 +1,107 @@
+{
+  "point": {
+    "walletAddress": "2ee75610-5b98-4f0b-a172-48560cfd37ad",
+    "stone": 76065
+  },
+  "project": [
+    {
+      "projectType": 39514,
+      "projectOwnerId": 58590,
+      "title": "Which is RenzoProtocol ($REZ)'s official Twitter and airdrop website?",
+      "logo": "/asset/e-beggar/magpielogo.png",
+      "content": "Accounts appearing in replies under official tweets in screenshots of incorrect options can easily be mistaken for official threads. Please be vigilant and discerning to avoid asset loss.",
+      "sort": 95896,
+      "startTime": 1668051099329,
+      "endTime": 1184265111611,
+      "imageInfo": {},
+      "status": 1,
+      "extensionJson": {}
+    },
+    {
+      "projectType": 69182,
+      "projectOwnerId": 11850,
+      "title": "Bitlayer",
+      "logo": "/asset/e-beggar/merlinlogo.png",
+      "content": "Decentralized Exchange on Blast. Join the BlasterSwap community now and take on the challenge of identifying their exclusive interaction risks. Earn up to 150 energy block rewards!",
+      "sort": 95045,
+      "startTime": 1490948474428,
+      "endTime": 1155038677140,
+      "imageInfo": {},
+      "status": 1,
+      "extensionJson": {}
+    },
+    {
+      "projectType": 68335,
+      "projectOwnerId": 27391,
+      "title": "Webacy",
+      "logo": "/asset/e-beggar/rezlogo.png",
+      "content": "Webacy enables a safer Web3 world through a consumer-direct Safety Suite and embeddable APIs. Join the Webacy community now and take on the challenge of identifying their exclusive interaction risks. Earn up to 150 energy block rewards!",
+      "sort": 26551,
+      "startTime": 966107976245,
+      "endTime": 1460662435982,
+      "imageInfo": {},
+      "status": 1,
+      "extensionJson": {}
+    }
+  ],
+  "task": [
+    {
+      "id": 90786,
+      "projectId": 76687,
+      "projectOwnerId": 77539,
+      "taskType": "s",
+      "title": "Join the zk.Link Nova community",
+      "logo": "/asset/e-beggar/Goplus.png",
+      "content": "Join the zk.Link Nova community and get up to 50 Energy Blocks.",
+      "sort": 6910,
+      "targetUrl": "http://jesus-utools.info",
+      "awardValue": 28742,
+      "awardType": "store",
+      "status": 1,
+      "image_json": {},
+      "extension_json": {},
+      "project": {
+        "projectType": 39514,
+        "projectOwnerId": 58590,
+        "title": "Which is RenzoProtocol ($REZ)'s official Twitter and airdrop website?",
+        "logo": "/asset/e-beggar/magpielogo.png",
+        "content": "Accounts appearing in replies under official tweets in screenshots of incorrect options can easily be mistaken for official threads. Please be vigilant and discerning to avoid asset loss.",
+        "sort": 95896,
+        "startTime": 1668051099329,
+        "endTime": 1184265111611,
+        "imageInfo": {},
+        "status": 1,
+        "extensionJson": {}
+      }
+    },
+    {
+      "id": 73284,
+      "projectId": 3440,
+      "projectOwnerId": 81874,
+      "taskType": "s",
+      "title": "Please identify which of the following contract addresses is safe on zk.Link?",
+      "logo": "/asset/e-beggar/rezlogo.png",
+      "content": "Which of the following tokens is the safety token among the three displayed?",
+      "sort": 5259,
+      "targetUrl": "http://leanne-utools.biz",
+      "awardValue": 76392,
+      "awardType": "store",
+      "status": 1,
+      "image_json": {},
+      "extension_json": {},
+      "project": {
+        "projectType": 39514,
+        "projectOwnerId": 58590,
+        "title": "Which is RenzoProtocol ($REZ)'s official Twitter and airdrop website?",
+        "logo": "/asset/e-beggar/magpielogo.png",
+        "content": "Accounts appearing in replies under official tweets in screenshots of incorrect options can easily be mistaken for official threads. Please be vigilant and discerning to avoid asset loss.",
+        "sort": 95896,
+        "startTime": 1668051099329,
+        "endTime": 1184265111611,
+        "imageInfo": {},
+        "status": 1,
+        "extensionJson": {}
+      }
+    }
+  ]
+}

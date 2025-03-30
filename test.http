@@ -1,0 +1,86 @@
+
+### Pull talk content 
+GET http://localhost:3000/api/renaissance/ai/talk/0xCb49eC2dA1A96cb440F25Fe3Cc5cF04899E2D70F
+
+
+
+
+### 开始一个任务
+GET http://localhost:3000/api/renaissance/task/start?address=0xFa4D1Dcc35DD22f71CB079bB2ccf2e152661c40A&taskId=3
+
+
+
+### 完成一个任务
+POST http://localhost:3000/api/renaissance/task/complete
+Content-Type: application/json
+
+{
+  "address": "0xFa4D1Dcc35DD22f71CB079bB2ccf2e152661c40A",
+  "taskId": 3
+}
+
+
+### 开始一个任务 2
+GET http://localhost:3000/api/renaissance/task/start?address=0xFa4D1Dcc35DD22f71CB079bB2ccf2e152661c40A&taskId=2
+
+### 拒绝一个任务
+POST http://localhost:3000/api/renaissance/task/reject
+Content-Type: application/json
+
+{
+  "address": "0xFa4D1Dcc35DD22f71CB079bB2ccf2e152661c40A",
+  "taskId": 2
+}
+
+
+### 获取Camp 信息
+GET http://localhost:3000/api/renaissance/account/campInfo
+Content-Type: application/json
+
+{
+  "address": "0xFa4D1Dcc35DD22f71CB079bB2ccf2e152661c40A",
+}
+### 保存 Camp 信息
+POST http://localhost:3000/api/renaissance/account/campInfo/append
+Content-Type: application/json
+
+{
+  "address": "0xFa4D1Dcc35DD22f71CB079bB2ccf2e152661c40A",
+  "camp":"vinci",
+}
+
+###  Get Account details
+POST https://renaissence-api.artela.network/api/api/renaissance/account/extension
+Content-Type: application/json
+{
+  "address": "0x4f7dd7a716A4A51Ba2eA2987eAB34cde996F9302",
+  "extension": {
+    "tag": "1"
+  }
+}
+
+
+### 获取水晶明细
+GET http://localhost:3000/api/renaissance/detail/crystal
+Content-Type: application/json
+
+{
+  "address": "0xFa4D1Dcc35DD22f71CB079bB2ccf2e152661c40A",
+  "pageSize":10,
+  "currentPage":1,
+  "type":"1"
+}
+
+{
+  "total":54,
+  "currentPage":1,
+  "pageSize":10,
+  "data": [
+    {
+      "completedTime":"2024-05-01 18:48:39",
+      "taskTitle":"Please identify which of the follo comments is a reliable shared by a real user.",
+      "reward": 12,
+      "bonus": 3 // 没有bonus就返回0
+    }
+  ]
+}

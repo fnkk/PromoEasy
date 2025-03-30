@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff;
+  }
+  50% {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+  }
+}
+
+.animate-glow {
+  animation: glow 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-5%);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.animate-bounce-glow {
+  animation: bounce 1s infinite, glow 1.5s infinite;
+}
+@keyframes glow2 {
+  0%, 100% {
+    box-shadow: 0 0 2px #ae30ac, 0 0 5px #ae30ac, 0 0 10px #ae30ac;
+  }
+  50% {
+    box-shadow: 0 0 5px #ae30ac, 0 0 10px #ae30ac, 0 0 20px #ae30ac;
+  }
+}
+
+.animate-glow2 {
+  animation: glow2 1.5s infinite;
+}
+.cc {
+  color: #02021E;
+  font-size: 16px;
+}
+
+.cc .ant-message-error{
+  display: flex;
+  gap: 9px;
+}
+.cc .ant-message-success{
+  display: flex;
+  gap: 9px;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.shake {
+  animation: shake 0.5s;
+}
